@@ -1,11 +1,11 @@
-//Ejercicio 8
+//Ejercicio 7
 let numrep = prompt("Introduce numero de repeticiones");
 if (Number(numrep) == numrep) {
     if (numrep > 0 && numrep <= 50) {
         let rep,i;
-        for (i = 0; i <=numrep; i++) {
-            for (rep = 1; rep <= i; rep++) {
-                document.write(rep);
+        for (i = numrep; i >= 1; i--) {
+            for (rep = i; rep >= 1; rep--) {
+                document.write(i);
             }
             document.write("<br>");
         }
@@ -17,4 +17,3 @@ if (Number(numrep) == numrep) {
 else {
     alert("No has introducido un número");
 }
-

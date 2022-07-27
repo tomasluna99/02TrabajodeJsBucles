@@ -13,4 +13,4 @@ for (i = 0; i < numchar; i++) {
 }
 document.write("Número de Vocales: " + contador + ".");
 
-//Ejercicio 16
+
